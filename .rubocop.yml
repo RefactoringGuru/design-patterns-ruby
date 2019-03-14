@@ -1,0 +1,34 @@
+AllCops:
+  TargetRubyVersion: 2.6
+
+Style/AsciiComments:
+  Enabled: false
+  
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/TrivialAccessors:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/AccessModifierDeclarations:
+  Enabled: false
+
+Metrics/LineLength:
+  Description: 'Limit lines to 80 characters.'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#80-character-limits'
+  Max: 90
+
+Metrics/ParameterLists:
+  Enabled: false
+  
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+  
+Lint/DuplicateMethods:
+  Enabled: false
+  
+Lint/UnusedMethodArgument:
+  Enabled: false
