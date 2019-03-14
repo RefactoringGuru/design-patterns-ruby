@@ -39,7 +39,15 @@ class Prototype
     @circular_reference.prototype = self
     deep_copy(self)
   end
-
+  
+  # EN: deep_copy is the usual Marshalling hack to make a deep copy. But it's
+  # rather slow and inefficient, therefore, in real applications, use a special
+  # gem
+  #
+  # RU: Нередко метод deep_copy использует хак «маршалинг», чтобы создать
+  # глубокую копию объекта. Однако это медленное и неэффективно, поэтому в
+  # реальных приложениях используйте для этой задачи соответствующий пакет.
+  #
   # @param [Object] object
   private def deep_copy(object)
     Marshal.load(Marshal.dump(object))
