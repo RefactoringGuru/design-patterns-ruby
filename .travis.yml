@@ -1,11 +1,8 @@
 language: ruby
 rvm:
-  - 2.6
+  - 2.6.0
 sudo: required
 dist: trusty
-env:
-  global:
-  - RAILS_ENV: test
 cache: bundler
 before_install:
   - gem install bundler
