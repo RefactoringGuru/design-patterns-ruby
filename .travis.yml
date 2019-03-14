@@ -1,0 +1,15 @@
+language: ruby
+rvm:
+  - 2.6
+sudo: required
+dist: trusty
+env:
+  global:
+  - RAILS_ENV: test
+cache: bundler
+before_install:
+  - gem install bundler
+install:
+  - bundle install
+script:
+  - bundle exec rubocop
