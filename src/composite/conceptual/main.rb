@@ -115,7 +115,7 @@ end
 # работу своим детям, а затем «суммируют» результат.
 class Composite < Component
   def initialize
-    @children = [] # List[Component]
+    @children = []
   end
 
   # EN: A composite object can add or remove other components (both simple or
