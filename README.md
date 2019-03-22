@@ -6,9 +6,9 @@ It contains Ruby examples for all classic GoF design patterns.
 
 Each pattern includes two examples:
 
-- **Conceptual** examples show the internal structure of patterns, including detailed comments.
+- [x] **Conceptual** examples show the internal structure of patterns, including detailed comments.
 
-- **RealWorld** examples show how patterns can be used in real-world Ruby applications.
+- [ ] **RealWorld** examples show how patterns can be used in real-world Ruby applications.
 
 
 ## Requirements
