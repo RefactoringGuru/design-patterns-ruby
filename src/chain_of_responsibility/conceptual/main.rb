@@ -39,7 +39,7 @@ end
 # class.
 #
 # RU: Поведение цепочки по умолчанию может быть реализовано внутри базового
-# сса обработчика.
+# класса обработчика.
 class AbstractHandler < Handler
   # @return [Handler]
   attr_writer :next_handler
