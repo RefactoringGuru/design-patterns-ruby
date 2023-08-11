@@ -32,3 +32,6 @@ Lint/DuplicateMethods:
 
 Lint/UnusedMethodArgument:
   Enabled: false
+
+Lint/MissingSuper:
+  Enabled: false
