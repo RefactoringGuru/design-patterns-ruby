@@ -31,7 +31,7 @@ class AlphabeticalOrderIterator
 
   # @param [Array] collection
   # @param [Boolean] reverse
-  def initialize(collection, reverse = false)
+  def initialize(collection, reverse: false)
     @collection = collection
     @reverse = reverse
   end
@@ -65,7 +65,7 @@ class WordsCollection
 
   # @return [AlphabeticalOrderIterator]
   def reverse_iterator
-    AlphabeticalOrderIterator.new(@collection, true)
+    AlphabeticalOrderIterator.new(@collection, reverse: true)
   end
 
   # @param [String] item
