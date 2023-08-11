@@ -28,7 +28,7 @@ DEPENDENCIES
   rubocop
 
 RUBY VERSION
-   ruby 2.6.0p0
+   ruby 3.2.2p53
 
 BUNDLED WITH
-   2.0.1
+   2.4.18
