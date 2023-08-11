@@ -2,25 +2,25 @@ Originator: My initial state is: Super-duper-super-puper-super.
 
 Caretaker: Saving Originator's state...
 Originator: I'm doing something important.
-Originator: and my state has changed to: BFDECxFORrlPIMDCDfQuRwHcuvpbTv
+Originator: and my state has changed to: CHYzYSIWbqvWkCzIHOqTyEJWfQlFMn
 
 Caretaker: Saving Originator's state...
 Originator: I'm doing something important.
-Originator: and my state has changed to: xjyrOYzoBYIPYHhGKlvbQrsRvKSRzY
+Originator: and my state has changed to: vbkhwCeAEQBpLwQLlhmpcvUnwzxVnT
 
 Caretaker: Saving Originator's state...
 Originator: I'm doing something important.
-Originator: and my state has changed to: xHfPozLWyhsamFVUUPfhIaGBhaBBvK
+Originator: and my state has changed to: SBWlQnAEPLsitiOQAZbGlXHZAeWBoW
 
 Caretaker: Here's the list of mementos:
-2019-03-06 23:04:13 / (Super-dup...)
-2019-03-06 23:04:13 / (BFDECxFOR...)
-2019-03-06 23:04:13 / (xjyrOYzoB...)
+2023-08-11 15:02:35 / (Super-dup...)
+2023-08-11 15:02:35 / (CHYzYSIWb...)
+2023-08-11 15:02:35 / (vbkhwCeAE...)
 
 Client: Now, let's rollback!
-Caretaker: Restoring state to: 2019-03-06 23:04:13 / (xjyrOYzoB...)
-Originator: My state has changed to: xjyrOYzoBYIPYHhGKlvbQrsRvKSRzY
+Caretaker: Restoring state to: 2023-08-11 15:02:35 / (vbkhwCeAE...)
+Originator: My state has changed to: vbkhwCeAEQBpLwQLlhmpcvUnwzxVnT
 
 Client: Once more!
-Caretaker: Restoring state to: 2019-03-06 23:04:13 / (BFDECxFOR...)
-Originator: My state has changed to: BFDECxFORrlPIMDCDfQuRwHcuvpbTv
+Caretaker: Restoring state to: 2023-08-11 15:02:35 / (CHYzYSIWb...)
+Originator: My state has changed to: CHYzYSIWbqvWkCzIHOqTyEJWfQlFMn
