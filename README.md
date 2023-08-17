@@ -13,7 +13,7 @@ Each pattern includes two examples:
 
 ## Requirements
 
-These examples require Ruby 2.6 and newer, although they can be easily replicated in older versions of Ruby.
+These examples require Ruby 3.2 and newer, although they can be easily replicated in older versions of Ruby.
 
 This version provides explicit argument and return type declarations, which help to understand better some patterns' features that are not very obvious in dynamically typed language.
 
