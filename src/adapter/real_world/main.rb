@@ -3,12 +3,15 @@
 # Your boss tells you that you will be integrating with an external application
 # that uses the imperial system.
 #
-# Ru:
+# Ru: Представьте, что вы работаете над приложением, которое проверяет, превысил
+# ли автомобиль скорость, и все приложение использует метрическую систему.
+# Ваш начальник сообщает вам, что вы будете интегрироваться с внешним
+# приложением, использующим имперскую систему.
 #
-
+#
 # EN: This is the Speed class, it contains the speed value and the unit
 #
-# RU:
+# RU: Это класс скорости, он содержит значение скорости и единицу
 #
 class Speed
   include Comparable
@@ -25,7 +28,7 @@ class Speed
 
   # EN: We raise an error if we try to compare speeds with different units
   #
-  # RU:
+  # RU: Мы поднимаем ошибку, если попытаемся сравнивать скорости с разными единицами
   #
   def <=>(other)
     raise 'The speeds have different units' if unit != other.unit
@@ -36,7 +39,7 @@ end
 
 # EN: This is the class that is most used in the internal system.
 #
-# RU:
+# RU: Это класс, который наиболее используется во внутренней системе.
 #
 class KilometersSpeed < Speed
   def unit
@@ -46,7 +49,7 @@ end
 
 # EN: This is the type of data you will receive from the external API
 #
-# RU:
+# RU: Это тот тип данных, которые вы получите от внешнего API
 #
 class MilesSpeed < Speed
   def unit
@@ -56,7 +59,7 @@ end
 
 # EN: This class checks if the speed is above or bellow the maximum limit
 #
-# RU:
+# RU: Этот класс проверяет, если скорость выше или ниже максимального предела
 #
 class KilometersSpeedLimit
   MAX_LIMIT = KilometersSpeed.new(100)
@@ -73,7 +76,7 @@ end
 # EN: This is the adaptor that converts the speed from miles per hour to
 # kilometers per hour
 #
-# RU:
+# RU: Это адаптер, который преобразует скорость с миль в час в километры в час
 #
 class KilometersAdaptor < MilesSpeed
   def initialize(speed)
@@ -88,7 +91,8 @@ end
 # EN: This is an example of usage in a real application.
 # These are the objects you would have inside your application.
 #
-# RU:
+# RU: Это пример использования в реальном приложении.
+# Это те объекты, которые вы бы имели в вашем приложении.
 #
 slow_km_speed = KilometersSpeed.new(90)
 fast_km_speed = KilometersSpeed.new(110)
@@ -99,7 +103,8 @@ KilometersSpeedLimit.speeding?(fast_km_speed)
 # EN: These would be the objects you generate from the data you received from
 # the external API.
 #
-# RU:
+# RU: Это будут объекты, которые вы генерируете из данных, полученных от
+# внешнего API.
 #
 slow_mi_speed = MilesSpeed.new(50)
 fast_mi_speed = MilesSpeed.new(80)
