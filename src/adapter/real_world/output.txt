@@ -1,0 +1,4 @@
+(90km/h) You are bellow the max limit
+(110km/h) You are speeding
+(80.5km/h) You are bellow the max limit
+(128.8km/h) You are speeding
