@@ -1,0 +1,34 @@
+Tests with basic remote.
+Remote: power toggle
+------------------------------------
+| I'm radio.
+| I'm enabled
+| Current volume is 30%
+| Current channel is 1
+------------------------------------
+
+Tests with advanced remote.
+Remote: power toggle
+------------------------------------
+| I'm radio.
+| I'm disabled
+| Current volume is 0%
+| Current channel is 1
+------------------------------------
+
+Tests with basic remote.
+Remote: power toggle
+------------------------------------
+| I'm a TV.
+| I'm enabled
+| Current volume is 30%
+| Current channel is 1
+------------------------------------
+Tests with advanced remote.
+Remote: power toggle
+------------------------------------
+| I'm a TV.
+| I'm disabled
+| Current volume is 0%
+| Current channel is 1
+------------------------------------
