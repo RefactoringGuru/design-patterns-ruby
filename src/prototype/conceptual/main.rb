@@ -42,7 +42,7 @@ class Prototype
 
   # EN: deep_copy is the usual Marshalling hack to make a deep copy. But it's
   # rather slow and inefficient, therefore, in real applications, use a special
-  # gem
+  # gem.
   #
   # RU: Нередко метод deep_copy использует хак «маршалинг», чтобы создать
   # глубокую копию объекта. Однако это медленное и неэффективно, поэтому в
