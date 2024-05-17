@@ -1,0 +1,14 @@
+This pizza is a
+Thin crust pizza
+with:
+Tomato sauce
+Cheese
+Basil
+-*-*--*--*--*--*--*-
+This pizza is a
+Stuffed crust pizza
+with:
+Tomato sauce
+Cheese
+Pepperoni
+-*-*--*--*--*--*--*-
