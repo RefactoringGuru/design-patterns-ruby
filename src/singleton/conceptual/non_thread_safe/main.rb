@@ -13,7 +13,7 @@
 #
 # RU: Класс Одиночка предоставляет метод instance, который позволяет
 # клиентам получить доступ к уникальному экземпляру одиночки.
-class Singleton
+class SingletonCustom
   @instance = new
 
   private_class_method :new
@@ -46,8 +46,8 @@ end
 #
 # RU: Клиентский код.
 
-s1 = Singleton.instance
-s2 = Singleton.instance
+s1 = SingletonCustom.instance
+s2 = SingletonCustom.instance
 
 if s1.equal?(s2)
   print 'Singleton works, both variables contain the same instance.'

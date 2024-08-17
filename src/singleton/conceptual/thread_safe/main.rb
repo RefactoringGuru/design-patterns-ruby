@@ -13,7 +13,7 @@
 #
 # RU: Класс Одиночка предоставляет метод instance, который позволяет
 # клиентам получить доступ к уникальному экземпляру одиночки.
-class Singleton
+class SingletonCustom
   attr_reader :value
 
   @instance_mutex = Mutex.new
@@ -56,7 +56,7 @@ end
 
 # @param [String] value
 def test_singleton(value)
-  singleton = Singleton.instance(value)
+  singleton = SingletonCustom.instance(value)
   puts singleton.value
 end
 
