@@ -8,7 +8,7 @@
 # Назначение: Гарантирует, что у класса есть только один экземпляр, и
 # предоставляет к нему глобальную точку доступа.
 
-# EN: The Singleton class defines the `intance` method that lets clients
+# EN: The Singleton class defines the `instance` method that lets clients
 # access the unique singleton instance.
 #
 # RU: Класс Одиночка предоставляет метод instance, который позволяет
