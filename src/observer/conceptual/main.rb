@@ -86,13 +86,13 @@ class ConcreteSubject < Subject
   # RU: Список подписчиков. В реальной жизни список подписчиков может храниться
   # в более подробном виде (классифицируется по типу события и т.д.)
 
-  # @param [Obserser] observer
+  # @param [Observer] observer
   def attach(observer)
     puts 'Subject: Attached an observer.'
     @observers << observer
   end
 
-  # @param [Obserser] observer
+  # @param [Observer] observer
   def detach(observer)
     @observers.delete(observer)
   end
